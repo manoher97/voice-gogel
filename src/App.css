@@ -20,9 +20,17 @@
   border: none;
   border-radius: 20px;
   color: white;
-  margin: 0 10px;
+  margin: 20px 0 10px 10px;
+
 }
 .btn:hover{
   background-color: blanchedalmond;
   color: black;
+}
+
+/* Registar age decoration */
+.App-r {
+  text-align: center;
+  background-color: rgba(180, 238, 122, 0.253);
+  
 }

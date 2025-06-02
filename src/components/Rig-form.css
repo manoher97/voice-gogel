@@ -1,0 +1,112 @@
+
+  .rForm {
+    margin : auto;
+    background-Color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .rForm div{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 50% 20%;
+    height: 30px;
+    text-align: right;
+  }
+  .rForm label{
+    margin-right: 50px;
+  }
+  
+  /* admin panel decoratin */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+td input,
+td select {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-right: 5px;
+  padding: 6px 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.edit-th {
+  overflow-x: auto;
+}
+thead th {
+  display: table-cell;
+}
+
+thead.editing-mode th:not(:first-child) {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+  }
+
+  td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: none;
+  }
+
+  td::before {
+    content: attr(data-label);
+    flex-basis: 40%;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .btn {
+    width: 48%;
+    margin-top: 10px;
+  }
+}
+
+td input, td select {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
