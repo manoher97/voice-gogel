@@ -1,36 +1,19 @@
 .App {
   text-align: center;
-  margin: 10% 10%;
-  padding: 0 50px;
+  margin: 0;
+ font-family: sans-serif;
 }
 
-/* Home page decoration */
-.dark {
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-}
-.light {
-  background-color: white;
-  color: black;
-}
-.btn{
-  background-color: blue;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  margin: 20px 0 10px 10px;
-
-}
-.btn:hover{
-  background-color: blanchedalmond;
-  color: black;
+/* Base animation class (hidden before scroll) */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease-in-out;
 }
 
-/* Registar age decoration */
-.App-r {
-  text-align: center;
-  background-color: rgba(180, 238, 122, 0.253);
-  
+/* When visible */
+.animate-fade-up {
+  opacity: 1;
+  transform: translateY(0);
 }
+

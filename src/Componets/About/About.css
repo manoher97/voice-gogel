@@ -1,0 +1,92 @@
+.A-from{
+  text-align: left; 
+  font-weight: 500; 
+}
+.A-dec{
+  margin: 5% 3%;
+}
+.A-from img{
+  width: 100%;
+  height: 75%;
+  margin: 0 1%;
+  border-radius: 20px;
+}
+.A-from .A-Img{
+  padding-left: 6%;
+}
+.A-from h2{
+  font-size: 2.8rem;
+}
+.A-dec2{
+  margin: 10% 0;
+  font-weight: 500;
+}
+.A-dec2 h2{
+  font-size: 2.8rem;
+}
+
+ul {
+  list-style: disc;
+  text-align: left;
+}
+.A-dec3{
+  text-align: left;
+  margin: 15% 0;
+  
+}
+.A-dec3 h1{
+  text-align: left;
+  margin: 2%;
+}
+.A-dec3 h4{
+  text-align: left;
+  margin: 2%;
+}
+.A-dec3 ul{
+  padding-left: 12%;
+  font-weight: 500;
+}
+.A-dec4 img{
+  border-radius: 20px;
+  margin-left: 2%;
+}
+.A-dec5{
+   text-align: left;
+   margin: 10% 0;
+   font-weight: 500;
+} 
+
+
+.testimonials {
+  background: url('../Images/servies-2.jpg') no-repeat center center/cover;
+  min-height: 75vh;
+  color: white;
+  background-attachment: fixed;
+  margin-top: 10%;
+  padding-top: 8%;
+  font-weight: 800;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 20px 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.star-rating {
+  font-size: 1.5rem;
+}
+
+.testimonial-user .user-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.T-dec{
+  margin-right: 8%;
+}

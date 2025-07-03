@@ -1,0 +1,76 @@
+.nav-H {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.nav-scrolled {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.Header {
+  margin: 0 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-H img {
+  width: 60px;
+  height: 60px;
+}
+
+.me-auto {
+  margin-left: 30%;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.link {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 6%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.active-link {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.bon {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 15px;
+  border: none;
+}
+.nav-logo-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .nav-logo-img {
+    width: 50px;
+    height: 50px;
+  }
+}
+

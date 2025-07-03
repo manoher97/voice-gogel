@@ -1,0 +1,15 @@
+.service-card {
+  margin-top: 8%;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  background-color: #f7941d ;
+}
+
+.S-dec h2{
+  font-size: 3rem;
+}
+.S-dec .text-muted {
+  margin: 5%;
+}
+

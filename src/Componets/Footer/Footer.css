@@ -1,0 +1,93 @@
+.End-dec {
+  background-color: rgb(32, 27, 27);
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+.End-dec a {
+  color: white;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.Foot-dec {
+  display: grid;
+  grid-template-columns: 40% 25% 30%;
+  gap: 2rem;
+  margin-left: 10%;
+  padding-top: 6%;
+  padding-right: 5%;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Foot-dec h5 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Foot-dec input {
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.Foot-dec button {
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+.copyRigsht {
+  margin: 6% 0 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 20px;
+}
+
+/* 🔻 Responsive Styles 🔻 */
+@media screen and (max-width: 1024px) {
+  .Foot-dec {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Foot-dec {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    padding: 10% 5%;
+    text-align: center;
+  }
+
+  .Foot-dec div {
+    margin-bottom: 30px;
+  }
+
+  .Foot-dec h5 {
+    font-size: 1.3rem;
+  }
+
+  .Foot-dec input {
+    height: 45px;
+  }
+
+  .Foot-dec button {
+    padding: 12px 18px;
+  }
+
+  .copyRigsht {
+    font-size: 0.8rem;
+    padding-top: 20px;
+  }
+}

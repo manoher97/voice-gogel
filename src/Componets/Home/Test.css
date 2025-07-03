@@ -1,0 +1,12 @@
+.bg-orange {
+  background-color: #f97316; /* Matches orange from Tailwind's orange-500 */
+}
+.test{
+  margin: 5%;
+}
+.testimonial-avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid #fff;
+}

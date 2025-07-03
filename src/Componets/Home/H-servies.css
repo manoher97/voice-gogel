@@ -1,0 +1,27 @@
+.services-section {
+  background-color: #111; 
+}
+
+.service-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  margin-top: 1rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.card-body{
+  margin: 10%;
+  text-align: left;
+}

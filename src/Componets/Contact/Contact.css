@@ -1,0 +1,27 @@
+.Con-dec {
+    text-align: left;
+    margin: 6%;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.Con-dec1 {
+    background: url('../Images/contact.jpg') no-repeat center center/cover;
+    min-height: 55vh;
+    color: white;
+    background-attachment: fixed;
+    padding-top: 8%;
+}
+.Con-dec1 h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.Con-dec1 p{
+    font-weight: 500;
+}
+
+.join-section {
+  background-color: #fff;
+  overflow-x: hidden;
+}
